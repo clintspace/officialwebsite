@@ -14,276 +14,231 @@
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=https://fonts.googleapis.com/css?family=Inconsolata:400,500,600,700|Raleway:400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: FlexStart
+  * Updated: Jul 27 2023 with Bootstrap v5.3.1
+  * Template URL: https://bootstrapmade.com/flexstart-bootstrap-startup-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
 </head>
 
 <body>
 
-  <!-- ======= Navbar ======= -->
-  <div class="collapse navbar-collapse custom-navmenu" id="main-navbar">
-  </div>
+  <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
 
-  <nav class="navbar navbar-light custom-navbar">
-    <div class="container">
-      <a class="navbar-brand" href="https://admin356005.wixsite.com/proposal-csteam">Click to Shop 🛒</a>
-      <a href="#" class="burger" data-bs-toggle="collapse" data-bs-target="#main-navbar">
-        <span></span>
+      <a href="index.html" class="logo d-flex align-items-center">
+        <img src="assets/img/logo.png" alt="">
+        <span>Clint Space</span>
       </a>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li><a class="nav-link scrollto" href="#portfolio">Portfolio</a></li>
+            <ul>
+                <ul>
+            </ul>
+          </li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
     </div>
-  </nav>
+  </header><!-- End Header -->
 
-  <main id="main">
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio">
 
-    <!-- ======= Works Section ======= -->
-    <section class="section site-portfolio">
-      <div class="container">
-        <div class="row mb-5 align-items-center">
-          <div class="col-md-12 col-lg-6 mb-4 mb-lg-0" data-aos="fade-up">
-            <h2>Our Great Works</h2>
-            <p class="mb-0">
-              Our services cater to diverse businesses and industries, enhancing brands both locally and globally. Explore our creatively crafted solutions for our valued clients.</p>
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h2>Portfolio</h2>
+          <p>Check our latest work</p>
+        </header>
+
+        <div class="row" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-Branding">Branding</li>
+              <li data-filter=".filter-card">Social Media</li>
+              <li data-filter=".filter-web">Web & Mobile Apps</li>
+            </ul>
           </div>
-          <div class="col-md-12 col-lg-6 text-start text-lg-end" data-aos="fade-up" data-aos-delay="100">
-            <div id="filters" class="filters">
-              <a href="#" data-filter="*" class="active">All</a>
-              <a href="#" data-filter=".web">Branding</a>
-              <a href="#" data-filter=".design">Website</a>
-              <a href="#" data-filter=".branding">Mobile Apps</a>
-              <a href="#" data-filter=".photography">Social Media & Print</a>
+        </div>
+
+        <div class="row gy-4 portfolio-container" data-aos="fade-up" data-aos-delay="200">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-Branding">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/Branding (2).jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>SHAKTI GYM</h4>
+                <p>Logo Design</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/Branding (2).jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="SHAKTI GYM"><i class="bi bi-plus"></i></a>
+                </div>
+              </div>
             </div>
           </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/Web & Mobile Apps (5).jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Multiwing Solutions</h4>
+                <p>Website Development</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/Web & Mobile Apps (5).jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Multiwing Solutions"><i class="bi bi-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-Branding">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/Branding (1).jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>KEERTHI TEA</h4>
+                <p>Logo Design</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/Branding (1).jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="KEERTHI TEA"><i class="bi bi-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/Social Media (12).jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>UK XPRESS</h4>
+                <p>Social Media Creative</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/Social Media (12).jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="UK XPRESS"><i class="bi bi-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/Web & Mobile Apps (1).jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Multiwing Solutions</h4>
+                <p>Website Development</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/Web & Mobile Apps (1).jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Multiwing Solutions"><i class="bi bi-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-Branding">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/Branding (3).jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>LACO COFFEE</h4>
+                <p>Logo Design</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/Branding (3).jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="LACO COFFEE"><i class="bi bi-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/Social Media (11).jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>UK XPRESS</h4>
+                <p>Social Media Creative</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/Social Media (11).jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="UK XPRESS"><i class="bi bi-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/Social Media (10).jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Zolo Designer Studio</h4>
+                <p>Social Media Creative</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/Social Media (10).jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Zolo Designer Studio"><i class="bi bi-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/Web & Mobile Apps (3).jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Grohood</h4>
+                <p>UI/UX Design</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/Web & Mobile Apps (3).jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Web & Mobile Apps"><i class="bi bi-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/Web & Mobile Apps (2).jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Zapkart</h4>
+                <p>UI/UX Design<p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/Web & Mobile Apps (2).jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Web & Mobile Apps"><i class="bi bi-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
         </div>
-        <div id="portfolio-grid" class="row no-gutter" data-aos="fade-up" data-aos-delay="200">
-          <div class="item web col-sm-6 col-md-4 col-lg-4 mb-4">
-            <a href="index.html" class="item-wrap fancybox">
-              <div class="work-info">
-                <h3>SHAKTI GYM</h3>
-                <span>Logo Design</span>
-              </div>
-              <img class="img-fluid" src="assets/img/img_1.jpg">
-            </a>
-          </div>
-          <div class="item web col-sm-6 col-md-4 col-lg-4 mb-4">
-            <a href="index.html" class="item-wrap fancybox">
-              <div class="work-info">
-                <h3>LACO</h3>
-                <span>Logo Design</span>
-              </div>
-              <img class="img-fluid" src="assets/img/img_20.jpg">
-            </a>
-          </div>
-          <div class="item web col-sm-6 col-md-4 col-lg-4 mb-4">
-            <a href="index.html" class="item-wrap fancybox">
-              <div class="work-info">
-                <h3>Keerthi Mountain Tea</h3>
-                <span>Logo Design</span>
-              </div>
-              <img class="img-fluid" src="assets/img/img_24.jpg">
-            </a>
-          </div>
-          <div class="item photography col-sm-6 col-md-4 col-lg-4 mb-4">
-            <a href="index.html" class="item-wrap fancybox">
-              <div class="work-info">
-                <h3>Zolo Designer Studio</h3>
-                <span>Social Media Creative</span>
-              </div>
-              <img class="img-fluid" src="assets/img/img_12.jpg">
-            </a>
-          </div>
-          <div class="item branding col-sm-6 col-md-4 col-lg-4 mb-4">
-            <a href="index.html" class="item-wrap fancybox">
-              <div class="work-info">
-                <h3>Zapkart</h3>
-                <span>E-Pharmacy App</span>
-              </div>
-              <img class="img-fluid" src="assets/img/img_21.jpg">
-            </a>
-          </div>
-          <div class="item design col-sm-6 col-md-4 col-lg-4 mb-4">
-            <a href="index.html" class="item-wrap fancybox">
-              <div class="work-info">
-                <h3>Multiwing Solutions</h3>
-                <span>Website Design</span>
-              </div>
-              <img class="img-fluid" src="assets/img/img_4.jpg">
-            </a>
-          </div>
-          <div class="item design col-sm-6 col-md-4 col-lg-4 mb-4">
-            <a href="index.html" class="item-wrap fancybox">
-              <div class="work-info">
-                <h3>Multiwing Solutions</h3>
-                <span>Website Design</span>
-              </div>
-              <img class="img-fluid" src="assets/img/img_5.jpg">
-            </a>
-          </div>
-          <div class="item design col-sm-6 col-md-4 col-lg-4 mb-4">
-            <a href="index.html" class="item-wrap fancybox">
-              <div class="work-info">
-                <h3>ARMT Maintenance</h3>
-                <span>Website Design</span>
-              </div>
-              <img class="img-fluid" src="assets/img/img_25.jpg">
-            </a>
-          </div>
-          <div class="item photography col-sm-6 col-md-4 col-lg-4 mb-4">
-            <a href="index.html" class="item-wrap fancybox">
-              <div class="work-info">
-                <h3>UK XPRESS</h3>
-                <span>Social Media Creative</span>
-              </div>
-              <img class="img-fluid" src="assets/img/img_18.jpg">
-            </a>
-          </div>
-          <div class="item photography col-sm-6 col-md-4 col-lg-4 mb-4">
-            <a href="index.html" class="item-wrap fancybox">
-              <div class="work-info">
-                <h3>UK XPRESS</h3>
-                <span>Social Media Creative</span>
-              </div>
-              <img class="img-fluid" src="assets/img/img_7.jpg">
-            </a>
-          </div>
-          <div class="item photography col-sm-6 col-md-4 col-lg-4 mb-4">
-            <a href="index.html" class="item-wrap fancybox">
-              <div class="work-info">
-                <h3>UK XPRESS</h3>
-                <span>Social Media Creative</span>
-              </div>
-              <img class="img-fluid" src="assets/img/img_8.jpg">
-            </a>
-          </div>
-          <div class="item photography col-sm-6 col-md-4 col-lg-4 mb-4">
-            <a href="index.html" class="item-wrap fancybox">
-              <div class="work-info">
-                <h3>UK XPRESS</h3>
-                <span>Social Media Creative</span>
-              </div>
-              <img class="img-fluid" src="assets/img/img_9.jpg">
-            </a>
-          </div>
-          <div class="item photography col-sm-6 col-md-4 col-lg-4 mb-4">
-            <a href="index.html" class="item-wrap fancybox">
-              <div class="work-info">
-                <h3>Zolo Designer Studio</h3>
-                <span>Social Media Creative</span>
-              </div>
-              <img class="img-fluid" src="assets/img/img_10.jpg">
-            </a>
-          </div>
-          <div class="item photography col-sm-6 col-md-4 col-lg-4 mb-4">
-            <a href="index.html" class="item-wrap fancybox">
-              <div class="work-info">
-                <h3>UK XPRESS</h3>
-                <span>Social Media Creative</span>
-              </div>
-              <img class="img-fluid" src="assets/img/img_15.jpg">
-            </a>
-          </div>
-          <div class="item photography col-sm-6 col-md-4 col-lg-4 mb-4">
-            <a href="index.html" class="item-wrap fancybox">
-              <div class="work-info">
-                <h3>DAIWIK</h3>
-                <span>Flyer Design</span>
-              </div>
-              <img class="img-fluid" src="assets/img/img_23.jpg">
-            </a>
-          </div>
-          <div class="item photography col-sm-6 col-md-4 col-lg-4 mb-4">
-            <a href="index.html" class="item-wrap fancybox">
-              <div class="work-info">
-                <h3>UK XPRESS</h3>
-                <span>Social Media Creative</span>
-              </div>
-              <img class="img-fluid" src="assets/img/img_16.jpg">
-            </a>
-          </div>
-          <div class="item branding col-sm-6 col-md-4 col-lg-4 mb-4">
-            <a href="index.html" class="item-wrap fancybox">
-              <div class="work-info">
-                <h3>Grohood</h3>
-                <span>E-Commerce app</span>
-              </div>
-              <img class="img-fluid" src="assets/img/img_22.jpg">
-            </a>
-          </div>
-        </div>
+
       </div>
-    </section><!-- End  Works Section -->
 
-    <!-- ======= Clients Section ======= -->
-    <section class="section">
-      <div class="container">
-        <div class="row justify-content-center text-center mb-4">
-          <div class="col-5">
-            <h3 class="h3 heading">Our Clients</h3>
-            <p>We are proud to have grown alongside our clients, expanding our reach beyond Kochi to include valued partnerships in UAE and New Zealand.</p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-4 col-sm-4 col-md-2">
-            <a href="#" class="client-logo"><img src="assets/img/krt.png" alt="Image" class="img-fluid"></a>
-          </div>
-          <div class="col-4 col-sm-4 col-md-2">
-            <a href="#" class="client-logo"><img src="assets/img/cb.png" alt="Image" class="img-fluid"></a>
-          </div>
-          <div class="col-4 col-sm-4 col-md-2">
-            <a href="#" class="client-logo"><img src="assets/img/mtw.png" alt="Image" class="img-fluid"></a>
-          </div>
-          <div class="col-4 col-sm-4 col-md-2">
-            <a href="#" class="client-logo"><img src="assets/img/tst.png" alt="Image" class="img-fluid"></a>
-          </div>
-          <div class="col-4 col-sm-4 col-md-2">
-            <a href="#" class="client-logo"><img src="assets/img/rbr.png" alt="Image" class="img-fluid"></a>
-          </div>
-          <div class="col-4 col-sm-4 col-md-2">
-            <a href="#" class="client-logo"><img src="assets/img/uk.png" alt="Image" class="img-fluid"></a>
-          </div>
-        </div>
-      </div>
-    </section><!-- End Clients Section -->
+    </section><!-- End Portfolio Section -->
 
-  </main><!-- End #main -->
-
-  <!-- ======= Footer ======= -->
-  <footer class="footer" role="contentinfo">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-6">
-          <p class="mb-1">&copy; Copyright 2023 Clint Space. All Rights Reserved</p>
-          <div class="credits">
-            <!--
-            All the links in the footer should remain intact.
-            You can delete the links only if you purchased the pro version.
-            Licensing information: https://bootstrapmade.com/license/
-            Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=MyPortfolio
-          -->
           </div>
-        </div>
-        <div class="col-sm-6 social text-md-end">
-          <a href="#"><span class="bi bi-twitter"></span></a>
-          <a href="#"><span class="bi bi-facebook"></span></a>
-          <a href="#"><span class="bi bi-instagram"></span></a>
-          <a href="#"><span class="bi bi-linkedin"></span></a>
+
         </div>
       </div>
     </div>
-  </footer>
+
+      </div>
+    </div>
+  </footer><!-- End Footer -->
 
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
