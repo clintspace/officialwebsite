@@ -30,7 +30,7 @@
 /*--------------------------------------------------------------
 1. Typography
 ----------------------------------------------------------------*/
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Catamaran:wght@400;600;700&display=swap");
 body,
 html {
   color: rgba(254, 254, 254, 0.7);
@@ -54,11 +54,11 @@ h6 {
   margin: 0 0 20px 0;
   font-weight: 600;
   line-height: 1.3em;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Catamaran', sans-serif;
 }
 
 .cs-primary_font {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Catamaran', sans-serif;
 }
 
 .cs-secondary_font {
